@@ -1,5 +1,5 @@
-url='https://github.com/kauavpnlite/DTCheckUser.git'
-checkuser='https://github.com/kauavpnlite/DTCheckUser/raw/master/executable/checkuser'
+url='https://github.com/DTunnel0/DTCheckUser.git'
+checkuser='https://github.com/DTunnel0/DTCheckUser/raw/master/executable/checkuser'
 depends=('git' 'python3' 'pip3')
 
 cd ~
@@ -177,7 +177,8 @@ echo
 
 function console_menu() {
     clear
-
+  apt install lolcat -y &>/dev/null
+  apt install figlet -y &>/dev/null
     echo -n 'CHECKUSER MENU v1 - '
     if is_installed; then
         echo -e '\e[32m[INSTALADO]\e[0m - Versao:' $(get_version)
