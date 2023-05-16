@@ -114,13 +114,12 @@ function get_version() {
 function deviceid_menu() {
  clear
     figlet 'DEVICEID' | lolcat
-    echo ''
     echo -e "╔════════════════•⊱✦⊰•════════════════╗" | lolcat
-echo -e "  [01] - LISTA DE DISPOSITIVOS POR USUARIO"
-echo -e "  [02] - DISPOSITIVOS E TODOS USUARIOS"
-echo -e "  [03] - RESETAR DIPOSITIVOS DE USUARIO"
-echo -e "  [04] - RESETAR TODOS DEVICEIDS"
-echo -e "  [00] - VOLTAR AO MENU"
+echo -e " [01] - DISPOSITIVOS POR USUARIO"
+echo -e " [02] - DISPOSITIVOS E TODOS USUARIOS"
+echo -e " [03] - RESETAR DIPOSITIVOS DE USUARIO"
+echo -e " [04] - RESETAR TODOS DEVICEIDS"
+echo -e " [00] - VOLTAR AO MENU"
 echo -e "╚════════════════•⊱✦⊰•════════════════╝" | lolcat
 echo
     read -p '◇ Escolha uma opção: ' option
